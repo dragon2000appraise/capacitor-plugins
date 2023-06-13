@@ -337,6 +337,10 @@ export enum CameraSource {
    * Pick an existing photo from the gallery or photo album.
    */
   Photos = 'PHOTOS',
+  /**
+   * Take a new video using the camera.
+   */
+  VideoCamera = 'VIDEOCAMERA',
 }
 
 export enum CameraDirection {
